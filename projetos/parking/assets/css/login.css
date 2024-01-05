@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+.login h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 90px;
+    
+  
+
+}
+
+#imagem-login img{
+    width: 100px;
+    height: 100px;
+margin-bottom: 60px;
+}
+.container{
+    display: flex;
+    
+}
+
+
+.main-login-right{
+    display: flex;
+    text-align: center;
+    padding-top:70px ;
+    justify-content: center;
+    width: 50vw;
+    
+
+
+}
+.main-login-left{
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    justify-items: center;
+    width: 70vw;
+    height: 100vh;
+    position: relative;
+    
+
+}
+.main-login-left img{
+
+    position: absolute;
+    display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+    left: 5%;
+    top: 10%;
+    
+    
+
+}
+input{ /* cor do input e não usado no check */
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 5px 0px;
+    padding-left: 4px;
+    outline: none;
+    width: 10vw;
+    border: 1px solid #D0D0DF;
+    
+}
+input:focus, textarea:focus, select:focus {
+  transition:  ease-in-out 100ms;
+    border-radius: 1px;
+    border: 1px solid #3D6DF9 ;
+    box-shadow: 0 0 3px #3D6DF9 ;
+    -moz-box-shadow: 0 0 3px #3D6DF9 ;
+    -webkit-box-shadow: 0 0 3px #3D6DF9 ;
+}
+.btn-login {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+    box-shadow: 0px 0.01em 0.01em rgb(45 35 66 / 40%), 0px 0.3em 0.7em -0.01em rgb(45 35 66 / 30%), inset 0px -0.01em 0px rgb(58 65 111 / 50%);
+    padding: 0 2em;
+    border-radius: 0.1em;
+    color: #fff;
+    height: 2em;
+    text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+   }
+   
+   button:hover {
+    box-shadow: 0px 0.1em 0.2em rgb(45 35 66 / 40%), 0px 0.4em 0.7em -0.1em rgb(45 35 66 / 30%), inset 0px -0.1em 0px #3c4fe0;
+    transform: translateY(-0.1em);
+   }
+   
+   button:active {
+    box-shadow: inset 0px 0.1em 0.6em #3c4fe0;
+    transform: translateY(0em);
+   }
+  
+  
+
+  

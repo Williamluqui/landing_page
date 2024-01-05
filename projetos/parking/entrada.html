@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/projetos/parking/assets/css/entrada.css">
+    <title>Entrada de Veiculos</title>
+</head>
+<body>
+    <div id="page-container" >
+        <header id="page-header" class="logo"> 
+            <p>CAR PARKING</p>
+            <div class="botao-sair">
+                <button class="btn-sair" id="sair" type="submit" onclick="sair()">Sair</button>
+            </div>
+        </header>
+        <nav id="menu" class="menu">
+            <p>MENU <img src="/assets/img/Menu_icon_icon-icons.com_71858.png" width="48" alt=""></p>
+            <ul>
+               <a href="/projetos/parking/inicio.html"> <li><img src="/assets/img/botao-home.png"  alt=""> INICIO</li> </a> 
+               <a href="/projetos/parking/entrada.html"><li><img src="/assets/img/caixa-de-entrada.png"  alt=""> ENTRADA DE VEICULOS</li></a> 
+               <a href="/projetos/parking/saida.html"><li><img src="/assets/img/saida.png"  alt=""> SAIDA DE VEICULOS</li></a> 
+              </ul> </nav>
+        <section id="conteudo" class="conteudo">
+                    <div class="txt">
+                        <p id="txt">Entrada de Veiculos</p>
+                        <form action="cadastro" class="cadastro" id="cadastro">
+                            <div class="divPlaca">
+                            <label for=""> Placa: 
+                            <input type="text"  placeholder="" name="user" class="placa" id="placa" required maxlength="8">
+                            </label>
+                            </div>
+                            <div class="divmodelo">
+                            <label for=""> Modelo:
+                            <input type="text"  placeholder="" id="modelo" maxlength="10">
+                            </label>
+                            </div>
+                            <div class="btn">
+                            <button class="btnRegistro" id="btnRegistro" type="button" >Registrar Entrada</button>
+                           </div>
+
+                           <p id="sucesso" class="sucesso1"></p>
+                      </div>     
+                    </form>
+                    </div>
+  
+          </div>
+           </section>
+        <footer >
+            <div class="rodape">
+            <strong> &copy; 2022 Projeto estacionamento - Todos direitos reservados |<a rel="noreferrer" target="_blank" href="https://wluqui.dev"> v.1.2 &#8734; wLuqui </strong></a>
+            </div>
+        </footer>
+    </div>
+    <div class="disclaimer"></div>
+<script src="/projetos/parking/assets/js/app.js"></script>
+</body>
+</html>
+
+
+
+
